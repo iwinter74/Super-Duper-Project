@@ -1,0 +1,72 @@
+div:nth-of-type(2){
+    height: 100vh;
+    width: 90%;
+    margin: 20px auto;
+}
+img{
+    width: 80%;;
+    height: 100vh;
+}
+
+div:first-of-type{
+    background: black;
+}
+div:nth-of-type(2){
+    background: url(https://assets.website-files.com/5c8834f1555981170b2fd8b1/5c898cd67456ffcba141a5ff_PROJECTS.svg) no-repeat;
+}
+body{
+    font-family: 'Gilda Display', serif;
+}
+h1,h2,h3{
+    font-family: 'Maven Pro', sans-serif;
+}
+div header h1{
+    width: 5vw;
+    color: white;
+    font-size: 1em;
+}
+div:first-of-type section{
+    width:15vw;
+    margin: 50px auto;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#3dc8d5,#8507e1);
+}
+div:first-of-type section:hover {
+    background: linear-gradient(#8507e1,#3dc8d5);
+}
+nav{
+    text-align: right;
+    margin-right: 20px;
+}
+nav a{
+    list-style: none;
+    color:white;
+    text-decoration: none;
+}
+div:nth-of-type(2) section:first-of-type h3{
+    font-size: 3em;
+}
+div:nth-of-type(2) ul li{
+    margin-left: -3%;
+}
+div:nth-of-type(2) ul li:first-of-type{
+    font-size: 50px;
+}
+div:nth-of-type(2) ul li:nth-of-type(2){
+    font-size: 30px;
+    text-transform: uppercase;
+}
+div:nth-of-type(2) ul li{
+    list-style: none;
+}
+
+
+/* Assets:
+section nr.2: background
+fonts:’Maven Pro’ , ‘Gilda Display’ 
+farbe: #333, #fff, #3dc8d5, #8507e1, #ccc */
+
+/* 
+font-family: 'Gilda Display', serif;
+font-family: 'Maven Pro', sans-serif; */
